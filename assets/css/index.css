@@ -1,0 +1,424 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	height: 50px;
+	background-color: #ebebe0;
+
+}
+
+#backgroundImage{
+	background-image: url("../images/back.png");
+	background-repeat: no-repeat;
+	background-size: 100% 800px;
+	min-height: 800px;
+
+}
+#designImage{
+	margin-top: 0px;
+    height: 100px;
+    width: 95px;
+}
+
+
+ul#desingUl{
+	list-style-type: none;
+	margin-right: 50px;
+	margin-left: 300px;
+}
+
+ul#desingUl li a{
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+	margin: 5px;
+	color:  #cc6600;
+	border-left: 3px solid white;
+	border-radius: 5px;
+	font-size: 13px;
+}
+
+ul#desingUl li a:hover{
+	background-color: white;
+	color: #cc6600;
+}
+
+h2#HeadingDesign{
+	color: white;
+    margin-top: 100px;
+    font-size: 64px;
+}
+
+
+
+#loginBox{
+	height: 450px;
+	width: 350px;
+	position: absolute;
+	background-color: white;
+	margin-top: 100px;
+	margin-left: 70%;
+    top: 50px;
+    opacity: 0.8;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.designInput{
+	padding: 15px;
+	width: 300px;
+	border-radius: 5px;
+
+}
+
+#slider{
+	min-height: 400px;
+	margin-top: 50px;
+	overflow: hidden;
+
+}
+#slider img{
+	min-height: 400px;
+	width: 90%;
+}
+
+footer{
+	background-color: #ebebe0;
+	color: #cc6600;
+	min-height: 70px;
+	border-top: 2px solid #cc6600;
+	border-radius: 5px;
+}
+
+ul#footeruldesing{
+	list-style-type: none;
+
+}
+
+
+ul#footeruldesing li a{
+	color: #cc6600;
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+ul#footeruldesing li a:hover{
+	text-decoration: underline;
+}
+
+
+
+ul#footeruldesing1{
+	list-style-type: none;
+
+}
+
+
+ul#footeruldesing1 li a{
+	color: #cc6600;
+	font-size: 25px;
+	margin: 20px;
+	float: left;
+	text-decoration: none;
+	height: 20px;
+	width: 20px;
+
+}
+
+
+
+
+
+/*Ammar css for about*/
+
+#bgaboutus{
+	background-image: url("../images/about_v2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 500px;
+	min-height: 500px; 
+
+}
+#info_rules{
+      
+     background-color: #ebebe0;
+	 min-height: 400px;
+	 margin-bottom: 30px;
+}
+.dgImage img{
+	min-height: 350px;
+	width: 100%;
+	margin-top: 30px;
+}
+
+
+.showdetail{
+	height: 350px;
+	width: 500px;
+	background: white;
+	opacity: 0.8;
+	position: absolute;
+	top: 26px;
+}
+.desingPara{
+	text-align: center;
+    line-height: 28px;
+    color: #cc6600;
+    font-size: 17px;
+}
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+/*Ammar css for contactus*/
+
+#bgcontact
+{
+   	background-image: url("../images/contact.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 500px;
+	min-height: 500px; 
+
+}
+#contactusform{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    min-height: 400px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+.productsDesign{
+	min-height: 400px;
+	padding-top: 70px;
+}
+.desingproductBox{
+	text-align: center;
+	min-height: 200px !important;
+	min-width: 200px !important;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-right: 2px solid #cc6600;
+	border-radius: 3px;
+
+}
+
+
+
+
+
+/* start of product_detail_box */
+
+.product_detail_box{
+	min-height: 700px;
+	padding: 100px;
+}
+
+.designHeading{
+	margin-right: 12%;
+	color: firebrick;
+	border-bottom: 3px solid firebrick;
+	margin-bottom: 40px;
+}
+
+
+
+.inputSpecial{
+	width: 48%;
+}
+.inputSpecial1{
+	width: 98%;
+}
+
+
+
+
+
+
+
+#adminloginBox{
+	height: 370px;
+	width: 350px;
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	margin-top: 100px;
+	margin-left: 38%;
+    top: 50px;
+    opacity: 0.8;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+//welcome page
+
+
+#adminpa{
+    background: black;
+    color: white;
+    
+}
+
+
+
+
+#dashboard{
+	min-height: 850px;
+	background: url('../images/adminp1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 850px;
+	color: white;
+	margin-top: 5%;
+}
+
+
+ul.adminlist{
+	list-style-type: none;
+	text-align: center;
+	margin-left: 33%;
+}
+ul.adminlist li a{
+	float: left;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	color: white;
+	background: #cc6600;
+	border-right: 1px solid;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 20px;
+}
+ul.adminlist li a:hover{
+	text-decoration: none;
+	background: orange;
+}
+
+#Viewpages{
+	color: white;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+	header{
+		height: 65px;
+    }
+    .navbar-toggler{
+    	float: right;
+    	margin-top: -62px;
+
+    }
+    ul#desingUl.navbar-nav{
+    	margin: 0px;
+    }
+
+    #backgroundImage{
+		background-image: url("../images/back.png");
+		background-repeat: no-repeat;
+		background-size: 100% 900px;
+		height: 900px;
+
+	}
+
+    ul#desingUl li a{
+		text-decoration: none;
+		padding: 1px;
+		margin: 2px;
+		width: 100%;
+		color:  #cc6600;
+		border-left: 0px solid white;
+		border-radius: 5px;
+		display: block;
+	 }
+
+	 #designImage{
+	 	margin-left: 45%;
+
+
+	}
+
+	#loginBox{
+		height: 400px;
+		width: 350px;
+		position: relative;
+		margin-top: 0px;
+		margin-left: 15%;
+	}
+
+	h2#HeadingDesign{
+	    margin-top: 60px;
+	}
+	.inputSpecial{
+	    width: 40%;
+	    margin-right: 55%;
+	    margin-bottom: 10px;
+    }
+    .inputSpecial1{
+	    width: 40%;
+	    margin-right: 55%;
+	    margin-bottom: 10px;
+    }
+    .align_center{
+    	margin-right: 55%;
+    }
+
+
+    footer{
+		
+		height: 100px;
+		border-radius: 5px;
+		margin-top: 10px;
+	}
+
+
+	ul#footeruldesing li a{
+		padding: 7px;
+		margin-top: 8px;
+		font-size: 13px;
+	}
+
+
+	ul#footeruldesing1 li a{
+		color: #cc6600;
+		font-size: 16px;
+		margin: 8px;
+		
+
+	}
+	.productsDesign{
+		min-height: 400px;
+		padding-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	#desingUl{
+		margin-top: -20px;
+	}
+
+	#adminloginBox{
+		margin-left: 17%;
+	}
+
+
+	
+
+
+
+
+
+
+}
